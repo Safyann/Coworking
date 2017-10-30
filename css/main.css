@@ -1,0 +1,64 @@
+@import "fonts.css";
+@import "layout/intro/intro.css";
+@import "layout/header.css";
+@import "layout/logo.css";
+@import "layout/contacts.css";
+@import "layout/navigation.css";
+@import "layout/breadcrumbs.css";
+@import "layout/prices/prices.css";
+@import "layout/main/about.css";
+@import "layout/main/content.css";
+@import "layout/main/specialoffer.css";
+@import "layout/main/partners.css";
+@import "layout/comments/comments.css";
+@import "layout/comments/pagination.css";
+@import "layout/comments/form.css";
+@import "layout/footer.css";
+@import "layout/socials.css";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'GothamPro';
+  color: #221f1f;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 1100px;
+}
+
+.wrapper::after {
+  content: "";
+  display: block;
+  height: 76px;
+}
+
+.container {
+  width: 1060px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main {
+  width: 880px;
+  float: right;
+}
+
+.main__title {
+  font-weight: bold;
+  font-size: 49px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.clearfix::after {
+  content: "";
+  display:block;
+  clear: both;
+}

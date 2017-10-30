@@ -1,0 +1,20 @@
+.specialoffer {
+  width: 640px;
+  background: #27273e;
+  padding: 10px 30px;
+  margin-bottom: 59px;
+}
+
+.specialoffer__text {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 1.67;
+  color: #ffffff;
+}
+
+.bold_text {
+  font-weight: bold;
+  color: #ec1e79;
+}

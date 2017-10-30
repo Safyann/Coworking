@@ -1,0 +1,79 @@
+.nav {
+  float: left;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  padding-bottom: 30px;
+}
+
+.nav__link {
+  text-decoration: none;
+  transition: .3s;
+}
+
+.nav__link:hover .nav__text{
+  color: #221f1f;
+}
+
+.nav__link:hover .nav__icon_main {
+  background-image: url('../../img/icon/main_icon_selected.png');
+}
+
+.nav__link:hover .nav__icon_prices {
+  background-image: url('../../img/icon/wallet_icon_selected.png');
+}
+
+.nav__link:hover .nav__icon_comments {
+  background-image: url('../../img/icon/feed_icon_selected.png');
+}
+
+.nav__icon {
+  width: 20px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.nav__text {
+  font-size: 12px;
+  color: #ec1e79;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.nav__text_active {
+  color: #221f1f;
+}
+
+.nav__icon_prices {
+  background: url('../../img/icon/wallet_icon.png') center center no-repeat;
+}
+
+.nav__icon_main {
+  background: url('../../img/icon/main_icon.png') center center no-repeat;
+}
+
+.nav__icon_comments {
+  background: url('../../img/icon/feed_icon.png') center center no-repeat;
+}
+
+.nav__icon_main_active {
+  background: url('../../img/icon/main_icon_selected.png') center center no-repeat;
+}
+
+.nav__icon_prices_active {
+  background: url('../../img/icon/wallet_icon_selected.png') center center no-repeat;
+}
+
+.nav__icon_comments_active {
+  background: url('../../img/icon/feed_icon_selected.png') center center no-repeat;
+}

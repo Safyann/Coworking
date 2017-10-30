@@ -1,0 +1,32 @@
+.partners__title {
+  font-weight: bold;
+  font-size: 49px;
+  text-transform: uppercase;
+}
+
+.partners-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.partners__item {
+  width: 160px;
+  height: 62px;
+  margin-right: 105px;
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 0.5s;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.partners__item:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
+.partners__logo {
+  vertical-align: middle;
+}

@@ -1,0 +1,40 @@
+.content {
+  width: 700px;
+  font-size: 18px;
+  line-height: 1.67;
+  font-weight: lighter;
+}
+
+.content__top {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.content__title {
+  margin: 0 0 7px;
+  padding: 0;
+  font-weight: bold;
+}
+
+.content-list {
+  margin: 0;
+  padding: 0 0 0 18px;
+}
+
+.content__item {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.content__item:before {
+  color: #ec1e79;
+  content: "•";
+  padding-right: 10px;
+}
+
+.content__bottom {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
